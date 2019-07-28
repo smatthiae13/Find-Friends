@@ -11,7 +11,7 @@ module.exports = function (app) {
        // console.log(req.body.scores);
 
         var user = req.body;  // pulls it from survey.html post 
-        var difference;
+        var difference;  //declared result, assigned it later
         var userScores = user.scores;
         var bestMatch = { name: "", photo: "", friendDiff: Infinity };
 
